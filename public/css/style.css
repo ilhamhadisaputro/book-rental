@@ -1,0 +1,47 @@
+.main {
+    height: 100vh;
+}
+.sidebar {
+    background-color: rgb(18, 56, 71);
+}
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white
+}
+.sidebar a:hover {
+    background-color: rebeccapurple;
+    transition: background-color 0.4s ease;
+}
+.active {
+    background: rebeccapurple;
+    border-left: solid 5px orange;
+}
+
+/* dasboard admin */
+.card-data {
+    border: solid;
+    padding: 40px 50px;
+}
+.card-data.books {
+    background-color: rgb(48, 145, 137);
+    color: rgb(248, 243, 243);
+}
+.card-data.categorys {
+    background-color: rgb(63, 129, 57);
+    color: white;
+}
+.card-data.users {
+    background-color: rgb(57, 68, 129);
+    color: white;
+}
+.card-data i {
+    font-size: 5rem;
+}
+.card-desc {
+    font-size: 1.5rem;
+}
+.card-count {
+    font-size: 1.2rem;
+}

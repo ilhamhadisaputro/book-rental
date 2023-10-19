@@ -1,0 +1,26 @@
+# Direktori vendor
+/vendor
+
+# Direktori node_modules
+/node_modules
+
+# Direktori yang berisi file konfigurasi dan kunci aplikasi
+/.env
+
+# Direktori storage untuk file sesi, cache, dan file log
+/storage
+
+# Direktori yang berisi file konfigurasi pengguna (harus diabaikan jika menggunakan konfigurasi pengguna individu)
+Homestead.yaml
+Homestead.json
+
+# File komposer
+composer.phar
+
+# File dan direktori yang dibuat oleh editor atau sistem operasi
+.idea
+*.iml
+*.log
+*.swp
+.DS_Store
+Thumbs.db
